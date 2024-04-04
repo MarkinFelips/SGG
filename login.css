@@ -1,0 +1,27 @@
+body{
+    background-color: #e7e7e7;
+    margin: 0;
+}
+header{
+    max-height: auto ;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@viewport {
+
+    width: device-width;
+
+ }
+ .logo{
+
+ }
