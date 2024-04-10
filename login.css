@@ -5,23 +5,53 @@ body{
 header{
     max-height: auto ;
     height: 45px;
-    background-color: #fff;
     display: flex;
-    text-align: center;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+    color: #04C9F4;
+    
+}
+#Cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    max-width: auto;
+    max-height: auto;
+    width: 153px;
+    height: 115px;
+
 }
 #Login{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+    background-color: #D9D9D9;
+    height: 335px;
+
 }
 @viewport {
 
     width: device-width;
 
  }
- .logo{
-
+ @media screen and (min-width: 780px) {
+    .full-width-img {
+        margin: auto;
+        width: 90%;
+    }
+ }
+ input{
+    width: 330px;
+    height: 46px;
+ }
+ button{
+    background-color: #04C9F4;
+    width: 160px;
+    height: 44px;
+    color: #fff;
  }

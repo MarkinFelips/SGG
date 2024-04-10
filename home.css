@@ -1,0 +1,12 @@
+@viewport {
+
+    width: device-width ;
+    
+
+ }
+ @media screen and (min-width: 780px) {
+    .full-width-img {
+        margin: auto;
+        width: 90%;
+    }
+ }
